@@ -1,0 +1,92 @@
+{
+    "id": "7c9ede40-a68f-53cb-904a-820960fa5861", 
+    "name": "Oauth test", 
+    "requests": [
+        {
+            "collectionId": "7c9ede40-a68f-53cb-904a-820960fa5861", 
+            "data": [
+                {
+                    "key": "username", 
+                    "type": "text", 
+                    "value": "foo"
+                }, 
+                {
+                    "key": "password", 
+                    "type": "text", 
+                    "value": "bar"
+                }, 
+                {
+                    "key": "grant_type", 
+                    "type": "text", 
+                    "value": "password"
+                }, 
+                {
+                    "key": "client_id", 
+                    "type": "text", 
+                    "value": "12345"
+                }, 
+                {
+                    "key": "client_secret", 
+                    "type": "text", 
+                    "value": "67890"
+                }
+            ], 
+            "dataMode": "params", 
+            "description": "", 
+            "headers": "Authorization: Bearer 13d47f4f8d7201c562e2e16f5427f5beb009dc6b\n", 
+            "id": "2b1fc29b-4179-4871-0d4f-19fd0dc1594e", 
+            "method": "GET", 
+            "name": "request authorized with oauth", 
+            "responses": [], 
+            "timestamp": 0, 
+            "url": "localhost:3000/users", 
+            "version": 2
+        }, 
+        {
+            "collectionId": "7c9ede40-a68f-53cb-904a-820960fa5861", 
+            "data": [
+                {
+                    "key": "username", 
+                    "type": "text", 
+                    "value": "foo"
+                }, 
+                {
+                    "key": "password", 
+                    "type": "text", 
+                    "value": "bar"
+                }, 
+                {
+                    "key": "grant_type", 
+                    "type": "text", 
+                    "value": "password"
+                }, 
+                {
+                    "key": "client_id", 
+                    "type": "text", 
+                    "value": "12345"
+                }, 
+                {
+                    "key": "client_secret", 
+                    "type": "text", 
+                    "value": "67890"
+                }, 
+                {
+                    "key": "scope", 
+                    "type": "text", 
+                    "value": "activity,jobs,candidates"
+                }
+            ], 
+            "dataMode": "urlencoded", 
+            "description": "", 
+            "headers": "", 
+            "id": "db316dc3-2c17-ecf3-b514-6dba1bf81481", 
+            "method": "POST", 
+            "name": "Get token", 
+            "time": 1378042141032, 
+            "timestamp": 0, 
+            "url": "localhost:3000/oauth/token", 
+            "version": 2
+        }
+    ], 
+    "timestamp": 1377977107058
+}
